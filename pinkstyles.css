@@ -1,0 +1,76 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #f4e7fb, #c3c7f3);
+}
+.grid{    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    padding: 4rem;
+}
+.clock-container {    
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#clock {
+    font-size: 60px;
+    color: #fff;
+    background-color: #F5BCBA;
+
+}
+
+#clocks {
+    font-size: 60px;
+    color: #fff;
+    background-color: #E3AADD;
+
+}
+#clocked{
+    font-size: 60px;
+    color: #fff;
+    background-color: #C8A8E9;
+
+}
+#clockes{
+    font-size: 60px;
+    color: #fff;
+    background-color: #c3c7f3;
+}
+.title{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+p{
+    text-align: left;
+    color: #fff;
+    font-weight: bold;
+    gap: 1rem;
+}
+button{
+    align-items: center;
+    padding: 0.7rem;
+    border-radius: 15%;
+    color: #f4e7fb;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    text-shadow: #C8A8E9;
+    font-size: large;
+    color: #a573d6;
+}
